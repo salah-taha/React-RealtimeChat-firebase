@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  bottom: 0px;
+  background-color: #e9e9eb;
+}
+
+.app__form .app__form-control {
+  flex-direction: row;
+  width: 100%;
+}
+
+.app__iconButton {
+  flex: 0;
+}
+
+.app__input {
+  flex: 1;
+}

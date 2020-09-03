@@ -1,0 +1,30 @@
+.message {
+  width: fit-content;
+  max-width: 60%;
+  height: fit-content;
+}
+
+.left-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
+.left-message .message {
+  text-align: start;
+}
+
+.right-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.right-message .message {
+  background-color: #0b81ff;
+  text-align: end;
+}
+.sender-name {
+  display: none;
+}
